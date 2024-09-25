@@ -1,0 +1,301 @@
+@media(max-width: 991px) {
+    .navbar {
+        padding: 10px 0 !important;
+        background: var(--white-color);
+        z-index: 99999; 
+      }
+    
+      .navbar.navbar-fixed{
+        background: var(--white-color);
+      }
+      .navbar.dark{
+        background: var(--black);
+      }
+      .navbar.navbar-fixed.dark{
+        background: var(--black);
+      }
+      .navbar ul.navMenu {
+        display: block;
+        background: #000;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 55px;
+        right: -100%;
+        z-index: 1;
+        transition: all 0.5s ease;
+    }
+    .navbar ul.navMenu.show {
+        right: 0;
+
+    }
+    .navbar ul.navMenu>li {
+       border-bottom: 1px solid #1d1d1d;
+    }
+
+    .navbar ul>li.parent {
+        display: block;
+        width: 100%;
+    }
+
+    .navbar ul.navMenu>li a,
+    .navbar ul.navMenu>li>.dropdownToggle>a, .navbar.navbar-fixed ul.navMenu>li>a, .navbar.navbar-fixed ul.navMenu>li>.dropdownToggle>a {
+        margin: 0;
+        padding: 15px;
+        width: 100%;
+        color:var(--white-color);
+    }
+    .navbar.navbar-fixed ul.navMenu>li>.dropdownToggle>a.active, .navbar.bg-white ul.navMenu>li>.dropdownToggle>a.active{
+        color:rgba(255, 255, 255, 0.6);
+    }
+
+    .navbar.bg-white ul.navMenu>li>a, .navbar.bg-white ul.navMenu>li>.dropdownToggle>a{
+        color:var(--white-color);
+     
+    }
+    .menuToggler {
+        position: relative;
+        right: 0;
+        z-index: 99999;
+    }
+
+    .navbar.dark .menuToggler svg, .navbar.navbar-fixed.dark .menuToggler svg{
+        font-size: 32px;
+        color: var(--white-color);
+        fill:var(--white-color);
+    }
+    .navbar.bg-white .menuToggler svg, .navbar.navbar-fixed .menuToggler svg,  .navbar .menuToggler svg{
+        color:var(--black);
+        fill:var(--black);
+        font-size: 32px;
+    }
+
+  .subMenuDropdown {
+        position: static;
+        background: transparent !important;
+        padding: 10px 0 10px;
+    }
+
+  .subMenuDropdown>li {
+        background: transparent !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .subMenuDropdown>li a {
+        padding: 0 15px;
+    }
+
+    .subMenuDropdownRight li a {
+        padding: 15px;
+    }
+
+    .navbar ul.navMenu .subMenuDropdown>li {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .submenuToggler {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        padding: 25px 15px;
+
+    }
+
+    .arrowRight {
+        transform: rotate(90deg);
+    }
+
+    .arrowDown {
+        border-top: 0.4rem solid rgba(255, 255, 255, 0.6);
+        border-left: 0.3rem solid transparent;
+        border-right: 0.3rem solid transparent;
+
+    }
+}
+    @media(max-width: 767px) {
+
+    .section-padding-xl {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .section-padding-lg {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .section-padding {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .sectionHeader h5{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .sectionHeader.section-padding{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .contactHeader h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .addressBox {
+        width: 90%;
+        margin: 0 auto 30px;
+    }
+
+    .heroSubTitle {
+        font-size: 18px;
+        line-height: 23px;
+        margin: 0 0 15px;
+    }
+
+    .heroTitle {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .heroButtons {
+        align-items: center;
+    }
+
+    .contactButtonBox {
+  
+        align-items: center;
+    }
+
+    .slideBtn {
+
+        min-width: 140px;
+    }
+
+    .aboutCompany,
+    .aboutCompany .FeatureBox {
+        text-align: center;
+    }
+
+    .aboutCompany h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .aboutCompany .FeatureBox {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .aboutCompany .FeatureBox p {
+        width: 100% !important;
+    }
+    .clientLogo img{
+        object-fit: contain;
+    }
+    .ourIps .textBox {
+        text-align: center;
+    }
+
+    .ourIps .textBox h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .ourIps .textBox span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .awardTextBox {
+        text-align: center;
+    }
+
+    .b2bMarketingSection h5 {
+
+        font-size: 20px;
+        line-height: 28px;
+
+    }
+
+    .quoteBox {
+        width: 90%;
+    }
+    .mastheadText h1{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .mastheadText p.w-75{
+        width: 100%!important;
+    }
+    .mastheadText p{
+        display: none;
+    }
+    .box-separator-line{
+        display: none;
+    }
+    .helpSection{
+        text-align: center;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .helpSection .row{
+        justify-content: center;
+    }
+    .helpImage {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+    .helpTextLeft .numberTitle, .helpTextLeft .mainTitle {
+        width: 100%!important;
+    }
+    .helpTextLeft .numberTitle{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .helpTextLeft .mainTitle {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .serviceSimple .serviceBox{
+        text-align: center;
+    } 
+    
+    .mastheadText{
+        position: absolute;
+        height: auto!important;
+        bottom: 0;
+        top: auto;
+        width: 100%;
+    }
+    .aboutSlider .carousel-control-next, .aboutSlider .carousel-control-prev{
+        
+        left: 0;
+        
+    }
+    .aboutSlider .carousel-control-next{
+        left:0;
+    }
+    .humansKestone {
+        padding-bottom: 100px;
+    }
+    .humansContent{
+        padding: 0px 15px 0px 15px;
+    }
+    .humanSlider{margin-top: 50px;}
+    .imgOverlay .imageBox{height: 300px;}
+    .spiritSection{text-align: center;}
+    .filterList{flex-direction: column;align-items: center;padding-left: 0;}
+    .joinUsSec{text-align: center;}
+    .humansTitle{margin-bottom: 10px;}
+    .jobFilterList{overflow: auto;}
+    .jobFilterList::-webkit-scrollbar{display: none;}
+    .serviceBanner {padding: 50px 0;}
+    .marginTop {margin-top: 56px;}
+    .thankyouSec h1{font-size: 42px;}
+    .thankyouSec p{width: 100%;}
+  
+}

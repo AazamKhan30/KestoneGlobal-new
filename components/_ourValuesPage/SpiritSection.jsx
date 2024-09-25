@@ -1,5 +1,4 @@
 import Image from "next/image";
-import micImage from "@/public/images/we-are-kestone.png";
 
 const SpiritSection = () => {
   return (
@@ -18,7 +17,7 @@ const SpiritSection = () => {
           <div className="col-md-4">
             <div className="helpImage">
               <Image
-                src={micImage}
+                src="/images/we-are-kestone.png"
                 alt="Help Image"
                 fill
                 sizes="(max-width: 767px) 100vw, 700px"

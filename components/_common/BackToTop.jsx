@@ -23,8 +23,8 @@ const BackToTop = () => {
   return (
     <>
       <a
-        class="scrollTop "
-        href="javascript:void(0);"
+        className="scrollTop "
+        href=""
         onClick={scrollTop}
         style={{
           display: showScroll ? "block" : "none",

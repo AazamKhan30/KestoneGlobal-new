@@ -8,12 +8,22 @@ const OurIPs = () => {
         <Row className="align-items-center">
           <Col md={3}>
             <div className="ipImgBox mb-3 mb-md-0">
-              <Image src="/images/kestone-IP-1.png" alt="kestone IP" fill />
+              <Image
+                src="/images/kestone-IP-1.png"
+                alt="kestone IP"
+                fill
+                sizes="(max-width: 767px) 100vw, 263px"
+              />
             </div>
           </Col>
           <Col md={3}>
             <div className="ipImgBox mb-3 mb-md-0">
-              <Image src="/images/kestone-IP-2.png" alt="kestone IP 2" fill />
+              <Image
+                src="/images/kestone-IP-2.png"
+                alt="kestone IP 2"
+                fill
+                sizes="(max-width: 767px) 100vw, 263px"
+              />
             </div>
           </Col>
           <Col md={6}>

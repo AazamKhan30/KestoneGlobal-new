@@ -22,16 +22,15 @@ const BackToTop = () => {
   };
   return (
     <>
-      <a
+      <span
         className="scrollTop "
-        href=""
         onClick={scrollTop}
         style={{
           display: showScroll ? "block" : "none",
         }}
       >
         <FaArrowUp />
-      </a>
+      </span>
     </>
   );
 };

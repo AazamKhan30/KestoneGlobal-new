@@ -21,7 +21,7 @@ const ServiceCaseStudies = ({ category }) => {
               .reverse()
 
               .map((item, index) => (
-                <div className="col-md-3">
+                <div className="col-md-3" key={index}>
                   <div className="caseBox">
                     <div className="caseImg bgSite ">
                       <Image

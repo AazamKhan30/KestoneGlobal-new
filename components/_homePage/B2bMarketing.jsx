@@ -32,7 +32,7 @@ const B2bMarketing = () => {
         </Row>
       </Container>
       <div className="b2bImgBottom">
-        <Image src="/images/kestone-team.png" alt="kestone team" fill />
+        <Image src="/images/Kestone-Team.png" alt="kestone team" fill />
       </div>
     </section>
   );

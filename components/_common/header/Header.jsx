@@ -140,7 +140,7 @@ const Header = ({ variant }) => {
                 />
               ) : (
                 <Image
-                  src="/images/kestone-logo.png"
+                  src="/images/Kestone-logo.png"
                   width={125}
                   height={26}
                   alt="kestone Logo"

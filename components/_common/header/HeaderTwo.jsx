@@ -32,7 +32,7 @@ const HeaderTwo = ({ variant }) => {
         <div className="navbarMain">
           <Link href="./" className="navbar-brand">
             <Image
-              src="/images/kestone-logo.png"
+              src="/images/Kestone-logo.png"
               width={125}
               height={26}
               alt="kestone Logo Main"

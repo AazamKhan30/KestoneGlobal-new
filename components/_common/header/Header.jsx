@@ -58,6 +58,7 @@ const Header = ({ variant }) => {
                   width={125}
                   height={26}
                   alt="kestone Logo"
+                  priority={true}
                 />
               ) : (
                 <Image
@@ -65,6 +66,7 @@ const Header = ({ variant }) => {
                   width={125}
                   height={26}
                   alt="kestone Logo"
+                  priority={true}
                 />
               )}
             </Link>

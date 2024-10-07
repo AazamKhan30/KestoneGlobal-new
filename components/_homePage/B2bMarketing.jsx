@@ -32,12 +32,7 @@ const B2bMarketing = () => {
         </Row>
       </Container>
       <div className="b2bImgBottom">
-        <Image
-          src="/images/kestone-team.png"
-          alt="kestone team"
-          fill
-          sizes="(max-width: 767px) 100vw, 1623px"
-        />
+        <Image src="/images/kestone-team.png" alt="kestone team" fill />
       </div>
     </section>
   );

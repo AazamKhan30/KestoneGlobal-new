@@ -289,7 +289,8 @@
 .b2bImgBottom{
   position: relative;
    width: 100%;
-  height: 289px;
+   max-width: 1623px;
+  aspect-ratio: 1623/371;
 
 }
 

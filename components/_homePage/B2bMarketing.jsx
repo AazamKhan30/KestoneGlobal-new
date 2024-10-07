@@ -36,7 +36,7 @@ const B2bMarketing = () => {
           src="/images/kestone-team.png"
           alt="kestone team"
           fill
-          sizes="(max-width: 767px) 100vw, 1263px"
+          sizes="(max-width: 767px) 100vw, 1623px"
         />
       </div>
     </section>

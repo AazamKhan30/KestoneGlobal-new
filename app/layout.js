@@ -6,7 +6,6 @@ import "@/public/css/style.css";
 import "@/public/css/responsive.css";
 
 import Footer from "@/components/_common/footer/Footer";
-import Header from "@/components/_common/header/Header";
 
 const roboto = Roboto({
   weight: ["100", "300", "400", "500", "700", "900"],
@@ -27,7 +26,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={roboto.className}>
       <body>
-        <Header variant="" />
         {children}
         <Footer />
       </body>

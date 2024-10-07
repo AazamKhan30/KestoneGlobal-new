@@ -19,7 +19,7 @@ const OurIPs = () => {
           <Col md={3}>
             <div className="ipImgBox mb-3 mb-md-0">
               <Image
-                src="/images/kestone-IP-2.png"
+                src="/images/Kestone-IP-2.png"
                 alt="kestone IP 2"
                 fill
                 sizes="(max-width: 767px) 100vw, 263px"

@@ -54,7 +54,7 @@ const Header = ({ variant }) => {
             <Link href="./" className="navbar-brand d-none d-md-flex">
               {navbar ? (
                 <Image
-                  src="/images/kestone-logo.png"
+                  src="/images/Kestone-logo.png"
                   width={125}
                   height={26}
                   alt="kestone Logo"
@@ -133,14 +133,14 @@ const Header = ({ variant }) => {
             <Link href="./" className="navbar-brand d-md-none ">
               {navbar ? (
                 <Image
-                  src="/images/kestone-logo.png"
+                  src="/images/Kestone-logo.png"
                   width={125}
                   height={26}
                   alt="kestone Logo"
                 />
               ) : (
                 <Image
-                  src="/images/kestone-logo.png"
+                  src="/images/Kestone-logo.png"
                   width={125}
                   height={26}
                   alt="kestone Logo"

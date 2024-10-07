@@ -129,25 +129,27 @@ const Header = ({ variant }) => {
             </Link>
           )} */}
 
-          {window.matchMedia("(max-width: 767px)") && variant == null && (
-            <Link href="./" className="navbar-brand d-md-none ">
-              {navbar ? (
-                <Image
-                  src="/images/kestone-logo.png"
-                  width={125}
-                  height={26}
-                  alt="kestone Logo"
-                />
-              ) : (
-                <Image
-                  src="/images/kestone-logo.png"
-                  width={125}
-                  height={26}
-                  alt="kestone Logo"
-                />
-              )}
-            </Link>
-          )}
+          {typeof window !== "undefined" &&
+            window.matchMedia("(max-width: 767px)") &&
+            variant == null && (
+              <Link href="./" className="navbar-brand d-md-none ">
+                {navbar ? (
+                  <Image
+                    src="/images/kestone-logo.png"
+                    width={125}
+                    height={26}
+                    alt="kestone Logo"
+                  />
+                ) : (
+                  <Image
+                    src="/images/kestone-logo.png"
+                    width={125}
+                    height={26}
+                    alt="kestone Logo"
+                  />
+                )}
+              </Link>
+            )}
 
           <div className="menuToggler d-block d-md-none" onClick={handleMenu}>
             <AiOutlineMenu />

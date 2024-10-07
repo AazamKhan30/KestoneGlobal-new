@@ -35,6 +35,7 @@ const HeaderTwo = ({ variant }) => {
               src="/images/Kestone-logo.png"
               width={125}
               height={26}
+              priority={true}
               alt="kestone Logo Main"
             />
           </Link>

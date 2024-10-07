@@ -35,7 +35,7 @@ const HeaderTwo = ({ variant }) => {
               src="/images/kestone-logo.png"
               width={125}
               height={26}
-              alt="kestone Logo"
+              alt="kestone Logo Main"
             />
           </Link>
           <div className="menuToggler d-block d-md-none" onClick={handleMenu}>

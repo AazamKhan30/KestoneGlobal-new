@@ -50,7 +50,7 @@ const Header = ({ variant }) => {
               )}
             </Link>
           ) : (
-            <Link href="./" className="navbar-brand d-none d-md-flex">
+            <Link href="./" className="navbar-brand d-md-flex">
               {navbar ? (
                 <Image
                   src="/images/Kestone-logo.png"

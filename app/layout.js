@@ -5,8 +5,6 @@ import "@/app/globals.css";
 import "@/public/css/style.css";
 import "@/public/css/responsive.css";
 
-import Footer from "@/components/_common/footer/Footer";
-
 const roboto = Roboto({
   weight: ["100", "300", "400", "500", "700", "900"],
   subsets: ["latin"],
@@ -25,11 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={roboto.className}>
-      <body>
-        {children}
-        <Footer />
-        <BackToTop />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

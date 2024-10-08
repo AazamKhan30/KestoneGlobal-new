@@ -7,6 +7,8 @@ export default function OtherLayout({ children }) {
     <>
       <Header />
       {children}
+      <Footer />
+      <BackToTop />
     </>
   );
 }

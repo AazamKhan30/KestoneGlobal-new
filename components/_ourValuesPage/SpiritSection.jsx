@@ -17,7 +17,7 @@ const SpiritSection = () => {
           <div className="col-md-4">
             <div className="helpImage">
               <Image
-                src="/images/we-are-kestone.png"
+                src="/images/microphone.png"
                 alt="Help Image"
                 fill
                 sizes="(max-width: 767px) 100vw, 700px"

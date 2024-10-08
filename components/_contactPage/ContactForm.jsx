@@ -17,7 +17,7 @@ const ContactForm = (variant, text) => {
                   alt="contact Us"
                   fill
                   className="object-fit-cover"
-                  sizes="(max-width: 767px) 100vw, 432px"
+                  sizes="(max-width: 767px) 100vw, 1000px"
                 />
               </div>
               <div className="contactTextBox">

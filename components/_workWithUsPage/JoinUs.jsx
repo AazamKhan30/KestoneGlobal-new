@@ -27,11 +27,10 @@ const JoinUs = () => {
           <div className="col-md-8">
             <div className="joinImg">
               <Image
-                src="/images/joinUs.jpg"
+                src="/images/JoinUs.jpg"
                 alt="Join Kestone"
                 width={750}
                 height={500}
-                className="img-fluid"
               />
             </div>
           </div>

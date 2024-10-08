@@ -28,7 +28,7 @@ const JoinUs = () => {
             <div className="joinImg">
               <Image
                 src="/images/joinUs.jpg"
-                alt=""
+                alt="Join Kestone"
                 width={750}
                 height={500}
                 className="img-fluid"

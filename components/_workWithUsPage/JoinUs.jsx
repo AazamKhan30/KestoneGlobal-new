@@ -29,8 +29,8 @@ const JoinUs = () => {
               <Image
                 src="/images/JoinUs.jpg"
                 alt="Join Kestone"
-                width={2048}
-                height={1365}
+                width={750}
+                height={500}
               />
             </div>
           </div>

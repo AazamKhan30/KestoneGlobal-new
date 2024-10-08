@@ -78,6 +78,7 @@ const MenuItems = ({ item, depth, clicked, setClicked }) => {
         className={
           pathname == item.path ? "dropdown-item active" : "dropdown-item"
         }
+        target={item.target ? "_blank" : "_self"}
         onClick={closeOnMob}
       >
         {item.title}

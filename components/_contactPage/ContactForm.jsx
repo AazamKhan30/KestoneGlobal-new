@@ -13,7 +13,7 @@ const ContactForm = (variant, text) => {
             <div className="innerBLock">
               <div className="contactImgBox">
                 <Image
-                  src="/images/contact-us.png"
+                  src="/images/Contact-Us.png"
                   alt="contact Image"
                   fill
                   className="object-fit-cover"

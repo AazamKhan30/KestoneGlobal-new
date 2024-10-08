@@ -9,9 +9,6 @@ export default function homeLayout({ children }) {
       <Header variant="dark" />
       <GoogleTagManager gtmId="GTM-NMPGBC2" />
       {children}
-
-      <Footer />
-      <BackToTop />
     </>
   );
 }

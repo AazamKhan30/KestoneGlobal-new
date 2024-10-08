@@ -14,7 +14,7 @@ const ContactForm = (variant, text) => {
               <div className="contactImgBox">
                 <Image
                   src="/images/contact-us.png"
-                  alt="contact Us"
+                  alt="contact Image"
                   fill
                   className="object-fit-cover"
                   sizes="(max-width: 767px) 100vw, 1000px"
